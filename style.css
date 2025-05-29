@@ -1,0 +1,189 @@
+/*------  RESET CSS  -----*/
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: inherit;
+}
+
+/* html en tout plus body*/ 
+html,
+body {
+    /* mystical sizing */
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    /* max-width: var(--w-100);*/
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+/* display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+/* fonts */
+font-family: "Figtree", serif; 
+  font-optical-sizing: auto; 
+  font-weight: 300; 
+  font-style: normal;
+  color: #211103;
+
+/* bg color*/
+background-color:#F8E5EE;  
+}
+
+#container {
+    width: 90%; 
+    max-width: 400px; 
+    background-color: white ; 
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 4px 8px #3D1308; /* Adds a shadow effect */
+    padding: 20px; /* Adds inner spacing */
+    margin: 40px;
+    text-align: center;
+}
+
+header {
+
+  
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.profile-pic {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #9F2042;
+    
+
+}
+
+h1 {
+    font-family: "Syne Mono";
+
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 18px;
+    font-style: light;
+    margin-bottom: 20px;
+
+}
+
+main { 
+    /*background-color: aqua;*/
+    height: 20rem;
+    width: 100%;
+
+    display: flex;
+    /* so, flex is usually horizontal until told otherwise */
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    /*this is 20px FROM the bottom*/
+    /*background-color: aquamarine;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-button {
+    display: block;
+    padding: 15px 20px;
+    margin: 10px;
+    font-family: "Jacquard 12";
+    font-size: 48px;
+    text-align: center;
+  text-decoration: none;
+    background-color: white;
+    color: #7B0D1E;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    transition: background-color 0.3s ease;
+
+    box-shadow: 0px 7px #211103, 
+    0px -7px #211103, 
+    7px 0px #211103, 
+    -7px 0px #211103, 
+    0px 12px #9F2042, 
+    7px 7px #9F2042, 
+    -7px 7px #9F2042, 
+    inset 0px 5px #F9C8CF ;
+
+
+   /* background-color: #04AA6D; /* Green */
+  /*border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;/*
+  transition: all 0.3s ease-in;
+  /*this is a handy animation, ease and ease-in-out seem to be kind of the same thing but with different timing*/
+
+}
+
+.custom-button:hover {
+    background-color: #F8E5EE;
+    color: #9F2042;
+
+    /*this does not show up on mobile*/
+}
+.custom-button:active{
+    /*this is when the button is actually pressed*/
+    background-color: #7B0D1E;
+    color: white;
+
+
+}
+
+.custom-button:focus {
+    background-color: #F8E5EE;
+    color: #9F2042;
+    /* this is for people who are tabbing with their keyboard, accesibility*/
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds space between items */
+    margin-bottom: 10px;
+}
+ul li a  {
+   /*background-color: blue;
+   transform: translate(0, 0.375em);
+   /*transition: color 0.3s ease;*/
+   font-size: 1.5em;
+
+}
+
+ul li a img {
+    width: 32px; 
+    height: auto;  
+    color: #9F2042;
+}
+ul li a:hover img  {
+    color: #3D1308;
+    transition: color 0.3s ease-in-out;
+}
+

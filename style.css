@@ -36,11 +36,10 @@ background-color:#F8E5EE;
 
 #container {
     width: 90%; 
-    max-width: 400px; 
+    max-width: 80%; 
     background-color: white ; 
-    border-radius: 25px; /* Rounded corners */
-    box-shadow: 0 4px 8px #3D1308; /* Adds a shadow effect */
-    padding: 20px; /* Adds inner spacing */
+    border-radius: 25px;
+    box-shadow: 0 4px 8px #3D1308; 
     margin: 40px;
     text-align: center;
 }

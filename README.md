@@ -24,15 +24,15 @@ Les choix de design ont voulu refléter le fort attachement de Tobi aux jeux vid
 
 ## Architecture des Fichiers
 
-├── index.html
-├── css/
-│   └── style.css
-├── imgs/
-│   ├── gantas-vaiciulenas-O9mK-pZiNe8-unsplash (1).png
-│   ├── gh.png
-│   └── in.png
-    └── yt.png
-└── README.md
+- index.html
+- css/
+  - style.css
+- imgs/
+  - gantas-vaiciulenas-O9mK-pZiNe8-unsplash (1).png
+  - gh.png
+  - in.png
+  - yt.png
+- README.md
 ## Améliorations Futures Potentielles
 
 * le glow du hover de la photo de profil peut être temperé un peu

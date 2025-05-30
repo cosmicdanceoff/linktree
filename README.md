@@ -8,7 +8,7 @@ Ce projet a été créé dans le cadre du cours de Développement Web, spécifiq
 
 Les choix de design ont voulu refléter le fort attachement de Tobi aux jeux vidéo et une esthétique générale vintage. Les décisions de conception clés incluent :
 
-* **Style Pixel Art.
+* **Style Pixel Art.**
 
 * **Palette de Couleurs Limitée :** Pour rester fidèle à l'ère 8-bit, la palette de couleurs a été intentionnellement limitée, imitant les contraintes du hardware originale.
 * **Photo de Profil :** La photo de profil de Tobi a été adaptée au thème par un processus de duotone et de pixellisation.
@@ -22,6 +22,17 @@ Les choix de design ont voulu refléter le fort attachement de Tobi aux jeux vid
 * HTML
 * CSS
 
+## Architecture des Fichiers
+
+├── index.html
+├── css/
+│   └── style.css
+├── imgs/
+│   ├── gantas-vaiciulenas-O9mK-pZiNe8-unsplash (1).png
+│   ├── gh.png
+│   └── in.png
+    └── yt.png
+└── README.md
 ## Améliorations Futures Potentielles
 
 * le glow du hover de la photo de profil peut être temperé un peu

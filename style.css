@@ -54,7 +54,7 @@ header {
     
 }
 .profile-pic {
-
+margin: 30px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -64,6 +64,21 @@ header {
     
 
 }
+
+/*.profile-pic:hover{
+
+  /* box-shadow: 
+    0 0 50px #f8e5ee,            /* outer */
+   /* -10px 0 80px #7b0d1e,        /* outer left */
+   /* 10px 0 80px #9f2042;  
+} */
+    .profile-pic:hover{
+  box-shadow:
+    0 0 50px #f8e5ee,
+    -10px 0 80px #7b0d1e,
+    10px 0 80px #9f2042;
+}
+
 
 h1 {
     font-family: "Syne Mono";
@@ -89,7 +104,7 @@ main {
     align-items: center;
     gap: 1rem;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 65px;
 }
 
 footer {
@@ -186,3 +201,6 @@ ul li a:hover img  {
     transition: color 0.3s ease-in-out;
 }
 
+footer  a {
+    color: #3d1308;
+}

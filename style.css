@@ -161,13 +161,22 @@ footer {
 
     /*this does not show up on mobile*/
 }
-.custom-button:active{
+/*.custom-button:active{
     /*this is when the button is actually pressed*/
-    background-color: #7B0D1E;
+   /* background-color: #7B0D1E;
     color: white;
+    transition: all 2s ease-in;
+transform: scale(0.95);
+}*/
 
-
+.custom-button:active {
+    background-color: #7B0D1E !important; /*I cannot get this thing to work*/
+    color: white !important;  /*this is to keep this from being overriden by class attributes*/
+   /* transition: all 1s ease-in;*/
+    transform: scale(0.95);
 }
+
+
 
 .custom-button:focus {
     background-color: #F8E5EE;
@@ -196,9 +205,9 @@ ul li a img {
     height: auto;  
     color: #9F2042;
 }
-ul li a:hover img  {
-    color: #3D1308;
-    transition: color 0.3s ease-in-out;
+ul li a img:hover  {
+     transition: all 0.2s ease-in;
+    transform: scale(0.95);
 }
 
 footer  a {
